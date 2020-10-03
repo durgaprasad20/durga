@@ -7,7 +7,7 @@ pipeline{
     stage('git pull'){
      steps{
        echo 'this stage for pull repo'
-       git 'https://'
+       git 'https://github.com/durgaprasad20/durga.git'
     }
    }
     stage('mvn install'){
